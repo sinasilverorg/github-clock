@@ -8,3 +8,6 @@
 /dataSources.local.xml
 
 /node_modules
+/@popperjs
+/bootstrap
+/remixicon
