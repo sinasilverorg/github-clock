@@ -1,1 +1,64 @@
 @import url(variables.css);
+
+.header-container {
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 1px solid var(--dark-font);
+    background-color: var(--black-bg-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-dropdown-btn {
+    background-color: var(--black-bg-color);
+    border: none;
+    outline: none;
+}
+
+.burger-icon {
+    border: 1px solid var(--dark-font);
+    border-radius: .4rem;
+    color: var(--dark-font);
+    background-color: inherit;
+    margin-right: 1rem;
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+
+
+.github-bg svg{
+    color: #fff!important;
+    fill: #fff!important;
+}
+
+.app-header {
+    display: flex;
+    align-items: center;
+}
+
+.search-btn i, .notification-btn i {
+    border: 1px solid var(--dark-font);
+    border-radius: .4rem;
+    color: var(--dark-font);
+    padding: .5rem;
+    margin: 0 .5rem;
+    font-size: 1.2rem;
+}
+
+.avatar-btn {
+    color: var(--dark-font);
+    margin-left: .5rem;
+}
+
+.avatar-img img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+
