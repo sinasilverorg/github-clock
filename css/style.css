@@ -61,4 +61,109 @@
     height: 40px;
 }
 
+main {
+    padding: 1rem;
+    background-color: var(--dark-bg-color);
+}
 
+.error-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 1rem 4rem;
+}
+
+.error-container__number {
+    font-size: 5rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-font);
+}
+
+.error-container__img {
+    padding: 0rem .5rem 1rem .5rem;
+}
+
+.error-container__text h4{
+    color: var(--white-font);
+    font-weight: 600;
+}
+
+.search-bar__text{
+    font-size: 1rem;
+    color: var(--dark-font);
+    font-weight: 400;
+}
+
+.search-bar__form {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar__input {
+    width: 75%;
+    background-color: inherit;
+    border: 1px solid var(--dark-font);
+    border-radius: .4rem;
+    margin-right: .4rem;
+}
+
+.search-bar__Btn {
+    width: calc(calc(calc(100% - 75%) - .4rem) - 1px);
+    border: 1px solid var(--dark-font);
+    border-radius: .4rem;
+    color: #ccc;
+    background-color: #7e7b7b;
+    outline: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.help-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem 2.5rem;
+    color: var(--dark-font);
+    font-size: 1.4rem;
+}
+
+.help-status__item{
+    color: var(--dark-font);
+    font-size: .9rem;
+    text-decoration: none;
+    padding: .1rem;
+}
+
+.magizane-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--white-font);
+    margin-bottom: 1rem;
+}
+
+.magizane-container__title {
+    color: var(--white-font);
+    font-size: 1rem;
+    margin: 0;
+}
+
+.magizane-container__text {
+    color: var(--dark-font);
+}
+
+.magizane-btn {
+    border: 1px solid var(--dark-font);
+    background-color: inherit;
+    border-radius: .4rem;
+    color: var(--white-font);
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: .8rem 1.8rem 1rem;
+}
