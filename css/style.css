@@ -167,3 +167,35 @@ main {
     font-weight: 700;
     padding: .8rem 1.8rem 1rem;
 }
+
+@keyframes logoHandler {
+    0% {
+        fill: #7e7b7b;
+    }
+    5% {
+        fill: #fff;
+    }
+    10% {
+        fill: #7e7b7b;
+    }
+    15% {
+        fill: #fff;
+    }
+    20% {
+        fill: #7e7b7b;
+    }
+    45% {
+        fill: #fff;
+    }
+    50% {
+        fill: #7e7b7b;
+    }
+    90% {
+        fill: #fff;
+    }
+}
+
+.error-container__img svg path{
+    animation-duration: 2s;
+    animation-name: logoHandler;
+}
